@@ -95,6 +95,10 @@ img {
   color: #5D83A3;
 }
 
+.bg-shade-green {
+  background-color: #E9F9F0;
+}
+
 .f-48 {
   font-size: 48px;
   line-height: 70px;
@@ -279,7 +283,7 @@ nav .nav-link:hover {
 }
 .seo-score .animators {
   right: 22px;
-  bottom: 0;
+  top: 0;
 }
 .seo-score .seo-after {
   position: relative;
@@ -332,4 +336,26 @@ nav .nav-link:hover {
 }
 .seo-score .seo-btn {
   padding: 21px 32px;
+}
+
+.related-blog {
+  background-image: url(../img/related-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.related-blog .blog-catagory {
+  padding: 10px;
+}
+.related-blog .blog-top {
+  z-index: -99999;
+}
+.related-blog .blog--bottom {
+  position: relative;
+  padding: 40px 30px;
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.06);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -20px;
+  z-index: 999;
+  background-color: #FFF;
 }/*# sourceMappingURL=style.css.map */
