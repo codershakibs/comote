@@ -19,6 +19,7 @@ body {
   margin: 0;
   background-color: #fff;
   font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 h1,
@@ -34,6 +35,10 @@ a {
   margin: 0;
   padding: 0;
   text-decoration: none;
+}
+
+p {
+  font-family: "Rubik", sans-serif !important;
 }
 
 /* reset, root - END */
@@ -164,13 +169,13 @@ img {
   border-radius: 100px;
 }
 
-section nav {
+nav {
   padding-top: 34px !important;
 }
-section nav .nav-btn {
+nav .nav-btn {
   padding: 15px 30px;
 }
-section nav .nav-link:hover {
+nav .nav-link:hover {
   color: #34C872;
 }
 
