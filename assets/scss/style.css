@@ -341,7 +341,7 @@ nav .nav-link:hover {
 .related-blog {
   background-image: url(../img/related-bg.svg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: bottom;
 }
 .related-blog .blog-catagory {
   padding: 10px;
@@ -358,4 +358,26 @@ nav .nav-link:hover {
   margin-top: -20px;
   z-index: 999;
   background-color: #FFF;
+}
+
+.newsletter .newsletter-btn {
+  padding: 17px 41px;
+}
+.newsletter #newsletter-input {
+  padding: 17px 220px 17px 20px;
+  border: 1px solid white;
+  background-color: transparent;
+}
+.newsletter #newsletter-input::-moz-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+.newsletter #newsletter-input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+.newsletter #newsletter-input:focus {
+  outline: none;
 }/*# sourceMappingURL=style.css.map */
