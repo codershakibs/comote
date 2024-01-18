@@ -67,15 +67,19 @@ img {
 
 // text-color
 .text-primary {
-    color: #34C872;
+    color: #34C872 !important;
+}
+
+.bg-primary {
+    background-color: #34C872 !important;
 }
 
 .text-secondary {
-    color: #FE5A4E;
+    color: #FE5A4E !important;
 }
 
-.bg-secondaryy {
-    background-color: #FE5A4E;
+.bg-secondary {
+    background-color: #FE5A4E !important;
 }
 
 .text-secondaryv2 {
@@ -91,6 +95,12 @@ img {
 }
 
 // font-size 
+
+.f-48 {
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: 700;
+}
 
 .f-32 {
     font-size: 32px;
@@ -108,6 +118,12 @@ img {
     font-size: 22px;
     line-height: 40px;
     font-weight: 700;
+}
+
+.f-20 {
+    font-size: 20px;
+    line-height: 48px;
+    font-weight: 600;
 }
 
 .f-18 {
@@ -163,8 +179,8 @@ img {
 }
 
 
-// padding
-
+// sec 
+section
 /* helper , base classes  - END*/
 
 // nav area 
@@ -180,5 +196,88 @@ nav {
             color: #34C872;
         }
     }
+
+}
+
+// banner 
+.banner {
+    background-image: url(../img/banner-bg.svg);
+    background-repeat: no-repeat;
+    margin-top: -100px;
+    padding-block: 180px 120px;
+
+    .banner-btn {
+        padding: 15px 30px;
+    }
+}
+
+// expert-team 
+.expert-team {
+    background-image: url(../img/team-bg.svg);
+    background-repeat: no-repeat;
+    background-position-x: right 256px left 68px;
+    // left: 68px;
+    // right: 256px;
+
+
+    .team-card {
+        padding: 70px 34px;
+        box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
+        z-index: 999;
+    }
+}
+
+// why-choose 
+.why-choose {
+    background-image: url(../img/choose-bg.svg);
+    background-repeat: no-repeat;
+
+
+    .accordion {
+        .accordion-button {
+            color: #044072 !important;
+            font-weight: 600;
+            font-size: 18px;
+            background-color: transparent;
+        }
+
+        .accordion-body {
+            color: #5D83A3;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .accordion-item {
+            background-color: transparent !important;
+            box-shadow: none;
+            padding: 25px 0 25px 30px;
+        }
+
+        .accordion-button:not(.collapsed) {
+            background-color: #FFF !important;
+        }
+
+        .accordion-body:not(.collapsed) {
+            background-color: #FFF !important;
+            border-left: 2px solid #34C872;
+        }
+
+        .accordion-item:not(.collapsed) {
+            // box-shadow: 0px 30px 60px 0px rgba(0, 94, 39, 0.06) !important;
+        }
+
+        .accordion-button:focus {
+            outline: none !important;
+            border-color: 0 !important;
+        }
+
+        .accordion-button::after {
+            background-image: url(../img/accordion-icon.svg);
+        }
+
+    }
+
+
+
 
 }

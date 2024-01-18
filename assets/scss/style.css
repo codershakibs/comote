@@ -59,15 +59,19 @@ img {
 
 /* helper , base classes */
 .text-primary {
-  color: #34C872;
+  color: #34C872 !important;
+}
+
+.bg-primary {
+  background-color: #34C872 !important;
 }
 
 .text-secondary {
-  color: #FE5A4E;
+  color: #FE5A4E !important;
 }
 
-.bg-secondaryy {
-  background-color: #FE5A4E;
+.bg-secondary {
+  background-color: #FE5A4E !important;
 }
 
 .text-secondaryv2 {
@@ -80,6 +84,12 @@ img {
 
 .p-text {
   color: #5D83A3;
+}
+
+.f-48 {
+  font-size: 48px;
+  line-height: 70px;
+  font-weight: 700;
 }
 
 .f-32 {
@@ -98,6 +108,12 @@ img {
   font-size: 22px;
   line-height: 40px;
   font-weight: 700;
+}
+
+.f-20 {
+  font-size: 20px;
+  line-height: 48px;
+  font-weight: 600;
 }
 
 .f-18 {
@@ -148,13 +164,68 @@ img {
   border-radius: 100px;
 }
 
-/* helper , base classes  - END*/
-nav {
+section nav {
   padding-top: 34px !important;
 }
-nav .nav-btn {
+section nav .nav-btn {
   padding: 15px 30px;
 }
-nav .nav-link:hover {
+section nav .nav-link:hover {
   color: #34C872;
+}
+
+.banner {
+  background-image: url(../img/banner-bg.svg);
+  background-repeat: no-repeat;
+  margin-top: -100px;
+  padding-block: 180px 120px;
+}
+.banner .banner-btn {
+  padding: 15px 30px;
+}
+
+.expert-team {
+  background-image: url(../img/team-bg.svg);
+  background-repeat: no-repeat;
+  background-position-x: right 256px left 68px;
+}
+.expert-team .team-card {
+  padding: 70px 34px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
+  z-index: 999;
+}
+
+.why-choose {
+  background-image: url(../img/choose-bg.svg);
+  background-repeat: no-repeat;
+}
+.why-choose .accordion .accordion-button {
+  color: #044072 !important;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: transparent;
+}
+.why-choose .accordion .accordion-body {
+  color: #5D83A3;
+  font-size: 16px;
+  font-weight: 400;
+}
+.why-choose .accordion .accordion-item {
+  background-color: transparent !important;
+  box-shadow: none;
+  padding: 25px 0 25px 30px;
+}
+.why-choose .accordion .accordion-button:not(.collapsed) {
+  background-color: #FFF !important;
+}
+.why-choose .accordion .accordion-body:not(.collapsed) {
+  background-color: #FFF !important;
+  border-left: 2px solid #34C872;
+}
+.why-choose .accordion .accordion-button:focus {
+  outline: none !important;
+  border-color: 0 !important;
+}
+.why-choose .accordion .accordion-button::after {
+  background-image: url(../img/accordion-icon.svg);
 }/*# sourceMappingURL=style.css.map */
