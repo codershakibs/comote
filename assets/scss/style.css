@@ -237,6 +237,8 @@ nav .nav-link:hover {
 }
 .why-choose .accordion .accordion-button:not(.collapsed) {
   background-color: #FFF !important;
+  border: 0;
+  outline: none;
 }
 .why-choose .accordion .accordion-body:not(.collapsed) {
   background-color: #FFF !important;
@@ -245,6 +247,7 @@ nav .nav-link:hover {
 .why-choose .accordion .accordion-button:focus {
   outline: none !important;
   border-color: 0 !important;
+  box-shadow: none;
 }
 .why-choose .accordion .accordion-button::after {
   background-image: url(../img/accordion-icon.svg);

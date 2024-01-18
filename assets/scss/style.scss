@@ -276,6 +276,8 @@ nav {
 
         .accordion-button:not(.collapsed) {
             background-color: #FFF !important;
+            border: 0;
+            outline: none;
         }
 
         .accordion-body:not(.collapsed) {
@@ -290,12 +292,12 @@ nav {
         .accordion-button:focus {
             outline: none !important;
             border-color: 0 !important;
+            box-shadow: none;
         }
 
         .accordion-button::after {
             background-image: url(../img/accordion-icon.svg);
         }
-
     }
 
 
