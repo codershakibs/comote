@@ -200,6 +200,11 @@ nav {
 
     .nav-btn {
         padding: 15px 30px;
+
+        &:hover {
+            border-radius: 20px;
+            transition: all 0.4s ease-in-out;
+        }
     }
 
     .nav-link {
@@ -219,6 +224,11 @@ nav {
 
     .banner-btn {
         padding: 15px 30px;
+
+        &:hover {
+            border-radius: 20px;
+            transition: all 0.4s ease-in-out;
+        }
     }
 }
 
@@ -234,7 +244,10 @@ nav {
         padding: 70px 34px;
         box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
         z-index: 999;
+
     }
+
+
 }
 
 // why-choose 
@@ -450,7 +463,4 @@ nav {
             outline: none;
         }
     }
-}
-
-
 }

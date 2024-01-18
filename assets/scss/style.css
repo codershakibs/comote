@@ -183,6 +183,10 @@ nav {
 nav .nav-btn {
   padding: 15px 30px;
 }
+nav .nav-btn:hover {
+  border-radius: 20px;
+  transition: all 0.4s ease-in-out;
+}
 nav .nav-link:hover {
   color: #34C872;
 }
@@ -195,6 +199,10 @@ nav .nav-link:hover {
 }
 .banner .banner-btn {
   padding: 15px 30px;
+}
+.banner .banner-btn:hover {
+  border-radius: 20px;
+  transition: all 0.4s ease-in-out;
 }
 
 .our-service {
