@@ -208,7 +208,6 @@ nav .nav-link:hover {
 .our-service {
   background-image: url(../img/team-bg.svg);
   background-repeat: no-repeat;
-  background-position-x: right 256px left 68px;
 }
 .our-service .service-card {
   padding: 70px 34px;
