@@ -12,3 +12,13 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+
+
+var splide = new Splide('.splide', {
+    perPage: 4,
+    rewind: true,
+    gap: "30px",
+});
+
+splide.mount()

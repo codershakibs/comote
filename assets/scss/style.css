@@ -184,12 +184,12 @@ section nav .nav-link:hover {
   padding: 15px 30px;
 }
 
-.expert-team {
+.our-service {
   background-image: url(../img/team-bg.svg);
   background-repeat: no-repeat;
   background-position-x: right 256px left 68px;
 }
-.expert-team .team-card {
+.our-service .service-card {
   padding: 70px 34px;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
   z-index: 999;
@@ -220,7 +220,7 @@ section nav .nav-link:hover {
 }
 .why-choose .accordion .accordion-body:not(.collapsed) {
   background-color: #FFF !important;
-  border-left: 2px solid #34C872;
+  border-left: 3px solid #34C872;
 }
 .why-choose .accordion .accordion-button:focus {
   outline: none !important;
@@ -228,4 +228,37 @@ section nav .nav-link:hover {
 }
 .why-choose .accordion .accordion-button::after {
   background-image: url(../img/accordion-icon.svg);
+}
+
+.expert-team .team-card {
+  box-shadow: 0px 16px 33px -8px rgba(0, 0, 0, 0.06);
+  padding: 40px;
+}
+.expert-team #splide01-track {
+  padding: 100px 25px 100px 25px !important;
+}
+.expert-team .splide__arrow--prev {
+  left: -4rem;
+}
+.expert-team .splide__arrow--next {
+  right: -4rem;
+}
+
+.how-works {
+  background-image: url(../img/shape-bg.svg);
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 999;
+}
+.how-works::after {
+  position: absolute;
+  content: "";
+  background-image: url(../img/main-shape.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  top: -8px;
+  left: 30px;
+  z-index: -99;
 }/*# sourceMappingURL=style.css.map */
