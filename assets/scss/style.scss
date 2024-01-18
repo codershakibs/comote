@@ -92,6 +92,10 @@ img {
     color: #06589C;
 }
 
+.bg-secondaryv2 {
+    background-color: #06589C;
+}
+
 .text-heading {
     color: #044072;
 }
@@ -326,4 +330,71 @@ nav {
     }
 
 
+}
+
+// seo-score 
+.seo-score {
+    background-image: url(../img/seo-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+   .animators{
+    right: 22px;
+    bottom: 0;
+   }
+
+    .seo-after {
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: "";
+            width: 1px;
+            height: 64px;
+            top: 0px;
+            left: 50%;
+            background-color: #5D83A3;
+            opacity: 0.5;
+        }
+
+    }
+
+    #input-website {
+        padding: 20px 200px 20px 20px;
+        border: 0;
+        background-color: transparent;
+
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {
+            font-size: 16px;
+            color: #5D83A3;
+            font-weight: 400;
+        }
+
+    }
+
+    #input-email {
+        padding: 20px 200px 20px 20px;
+        border: 0;
+        background-color: transparent;
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {
+            font-size: 16px;
+            color: #5D83A3;
+            font-weight: 400;
+        }
+
+    }
+
+    .seo-btn {
+        padding: 21px 32px;
+    }
 }

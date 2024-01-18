@@ -83,6 +83,10 @@ img {
   color: #06589C;
 }
 
+.bg-secondaryv2 {
+  background-color: #06589C;
+}
+
 .text-heading {
   color: #044072;
 }
@@ -266,4 +270,66 @@ nav .nav-link:hover {
   top: -8px;
   left: 30px;
   z-index: -99;
+}
+
+.seo-score {
+  background-image: url(../img/seo-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.seo-score .animators {
+  right: 22px;
+  bottom: 0;
+}
+.seo-score .seo-after {
+  position: relative;
+}
+.seo-score .seo-after::after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 64px;
+  top: 0px;
+  left: 50%;
+  background-color: #5D83A3;
+  opacity: 0.5;
+}
+.seo-score #input-website {
+  padding: 20px 200px 20px 20px;
+  border: 0;
+  background-color: transparent;
+}
+.seo-score #input-website:focus {
+  outline: none;
+}
+.seo-score #input-website::-moz-placeholder {
+  font-size: 16px;
+  color: #5D83A3;
+  font-weight: 400;
+}
+.seo-score #input-website::placeholder {
+  font-size: 16px;
+  color: #5D83A3;
+  font-weight: 400;
+}
+.seo-score #input-email {
+  padding: 20px 200px 20px 20px;
+  border: 0;
+  background-color: transparent;
+}
+.seo-score #input-email:focus {
+  outline: none;
+}
+.seo-score #input-email::-moz-placeholder {
+  font-size: 16px;
+  color: #5D83A3;
+  font-weight: 400;
+}
+.seo-score #input-email::placeholder {
+  font-size: 16px;
+  color: #5D83A3;
+  font-weight: 400;
+}
+.seo-score .seo-btn {
+  padding: 21px 32px;
 }/*# sourceMappingURL=style.css.map */
