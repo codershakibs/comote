@@ -1772,8 +1772,10 @@
             </div>
             <div class="seo-search-main d-flex align-items-center justify-content-center gap-4 mt-5">
                 <div class="seo-search radius-50 seo-after">
-                    <input type="text" name="website" placeholder="Enter your website url" id="input-website">
-                    <input type="text" name="email" placeholder="Email Address" id="input-email">
+                    <input type="text" name="website" placeholder="Enter your website url" onfocus="this.placeholder=''"
+                        onblur="this.placeholder='Enter your website url'" id="input-website">
+                    <input type="text" name="email" placeholder="Email Address" onfocus="this.placeholder=''"
+                        onblur="this.placeholder='enter your text'" id="input-email">
                 </div>
                 <a class="seo-btn d-inline-block bg-secondaryv2 radius-50 text-white f-16" href="">Check Now</a>
             </div>

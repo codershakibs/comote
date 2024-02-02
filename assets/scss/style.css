@@ -92,6 +92,10 @@ img {
   color: #044072;
 }
 
+.text-heading-2 {
+  color: #1D2D5F;
+}
+
 .p-text {
   color: #5D83A3;
 }
@@ -110,6 +114,18 @@ img {
     font-size: 34px;
     line-height: normal;
   }
+}
+
+.f-48-v2 {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 0;
+}
+
+.f-40 {
+  font-size: 40px;
+  line-height: 32px;
+  font-weight: 500;
 }
 
 .f-32 {
@@ -188,6 +204,12 @@ img {
   font-weight: 700;
 }
 
+.green-fill-button {
+  padding: 15px 30px;
+  background-color: #34C872;
+  display: inline-block;
+}
+
 .radius-50 {
   border-radius: 50px;
 }
@@ -260,6 +282,11 @@ nav .nav-link:hover {
   z-index: 999;
 }
 @media (max-width: 575px) {
+  .our-service .service-card {
+    max-height: 336px;
+  }
+}
+@media (max-width: 991px) {
   .our-service .service-card {
     max-height: 336px;
   }
@@ -592,4 +619,43 @@ nav .nav-link:hover {
 }
 .footer .footer-social a svg *:hover {
   fill: #1DA1F2;
+}
+
+.about-us-bg {
+  background-image: url(../img/about-us-banner-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-top: -100px;
+  padding-top: 170px;
+}
+
+.our-story .story-right-col {
+  gap: 30px;
+}
+
+.active-client {
+  background-image: url(../img/client-bg.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.client-say .client-sliders {
+  background: #FFF;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 8px 45px 0px;
+  margin: 100px 0;
+  padding: 45px 30px;
+}
+.client-say .splide__arrow--next {
+  right: -4em;
+}
+.client-say .splide__arrow--prev {
+  left: -4em;
+}
+.client-say .client {
+  background-image: url(../img/clients-bg.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
